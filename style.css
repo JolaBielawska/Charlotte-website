@@ -1,0 +1,112 @@
+body {
+            background: rgb(200, 194, 194);
+        }
+        .themebutton {
+            display: block;
+            margin: 20px auto;
+            border: 5px;
+            background: rgb(51, 60, 81);
+            color:rgb(255, 255, 255);
+            font-size: 16px;
+            line-height: 22px;
+            padding: 16px 24px;
+            border-radius: 30px;
+            transition:all 200 ms ease-in-out;
+            box-shadow: rgba(89, 87, 89. 0.6);
+            cursor: pointer;
+            font-family: 'Lexend Deca', sans-serif;
+
+        }
+        .themebutton:hover {
+            background: rgb(255, 254, 254);
+            color:rgb(51, 60, 81, 0.7);
+            border: 1px solid rgb(51, 60, 81);
+        }
+
+        h1 {
+            text-align: center;
+            font-family: 'Homemade Apple', cursive;
+            font-size: 60px;
+
+        }
+
+        .morebutton {
+            display: block;
+            margin: 20px auto;
+            border: 5px;
+            background: rgb(51, 60, 81);
+            color:rgb(255, 255, 255);
+            font-size: 16px;
+            line-height: 22px;
+            padding: 16px 24px;
+            border-radius: 30px;
+            transition:all 200 ms ease-in-out;
+            box-shadow: rgba(89, 87, 89. 0.6);
+            cursor: pointer;
+            font-family: 'Lexend Deca', sans-serif;
+
+        }
+        .morebutton:hover {
+          background: rgb(255, 254, 254);
+            color:rgb(51, 60, 81, 0.7);
+            border: 1px solid rgb(51, 60, 81);  
+        }
+
+        .charlotte-intro-picture {
+            width: 100%;
+            border-radius: 10px;
+            transition: all 150ms ease-in-out;
+        }
+        .charlotte-intro-picture:hover {
+            transform: scale(1.2);
+      
+        }
+
+        img {
+            display: block;
+            margin: 0 auto;
+        }
+
+        .grid {
+            margin: 15px 0;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-gap: 20px;
+
+        }
+        .grid img {
+           width: 100%; 
+           border-radius: 10px;
+           object-fit: cover;
+           aspect-ratio: 1.5/1;
+        }
+
+
+        p {
+            display: block;
+            margin: 30px auto;
+            text-align: center;
+            line-height: 30px;
+            padding: 10px 0;
+            max-width: 500px;
+            font-family:'Gloria Hallelujah', cursive;
+        }
+
+        footer {
+            text-align: center;
+            font-family: 'Lexend Deca', sans-serif;
+
+        }
+
+        .container {
+            max-width: 600px;
+            background-color: #fff;
+            display: block;
+            margin: auto;
+            border-radius: 30px;
+            padding: 20px;
+        }
+
+        .dark {
+            background: rgb(60, 58, 58);
+        }
